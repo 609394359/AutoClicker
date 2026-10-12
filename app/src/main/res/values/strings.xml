@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自动点击器</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_label">自动点击器服务</string>
+    <string name="accessibility_service_description">启用本服务后，应用可通过无障碍接口在其他应用界面上模拟点击操作。请仅在您了解并同意的情况下启用。</string>
+
+    <!-- Home screen -->
+    <string name="title_home">自动点击器</string>
+    <string name="subtitle_home">设置坐标与间隔，开始自动点击</string>
+
+    <!-- Coordinate inputs -->
+    <string name="label_x">X 坐标</string>
+    <string name="label_y">Y 坐标</string>
+    <string name="label_interval">点击间隔（毫秒）</string>
+    <string name="label_repeat">点击次数（0 = 无限）</string>
+
+    <!-- Buttons -->
+    <string name="btn_pick_xy">选取坐标</string>
+    <string name="btn_save">保存配置</string>
+    <string name="btn_start">开始</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_open_accessibility">去开启无障碍</string>
+    <string name="btn_open_overlay">去开启悬浮窗</string>
+    <string name="btn_show_floating">显示悬浮控制台</string>
+    <string name="btn_hide_floating">关闭悬浮</string>
+    <string name="btn_test_click">测试单击</string>
+
+    <!-- Picker activity -->
+    <string name="picker_title">选择点击坐标</string>
+
+    <!-- Status -->
+    <string name="status_running">运行中：已点击 %1$d 次</string>
+    <string name="status_idle">空闲</string>
+    <string name="status_service_required">未授权：需要开启无障碍服务</string>
+    <string name="status_overlay_required">未授权：需要开启悬浮窗</string>
+
+    <!-- Permission guide -->
+    <string name="guide_title">权限引导</string>
+    <string name="guide_step_1_title">开启无障碍服务</string>
+    <string name="guide_step_1_desc">设置 → 无障碍 → 已下载的服务 → 自动点击器 → 启用</string>
+    <string name="guide_step_2_title">允许显示悬浮窗</string>
+    <string name="guide_step_2_desc">设置 → 应用 → 自动点击器 → 显示在其他应用上层 → 允许</string>
+    <string name="guide_step_3_title">授予通知权限（可选）</string>
+    <string name="guide_step_3_desc">用于显示"服务运行中"通知，避免被系统回收</string>
+
+    <!-- Floating panel -->
+    <string name="floating_start">开始</string>
+    <string name="floating_stop">停止</string>
+    <string name="floating_close">关闭</string>
+    <string name="floating_pick">选取坐标</string>
+
+    <!-- Floating panel · pick mode (tap-anywhere independent selection) -->
+    <string name="picker_mode_title">选点模式</string>
+    <string name="picker_mode_hint">点击屏幕任意位置选择坐标</string>
+    <string name="picker_mode_selected">已选：(%1$d, %2$d)</string>
+    <string name="picker_mode_none">（尚未选择）</string>
+    <string name="picker_btn_confirm">确认</string>
+    <string name="picker_btn_reset">重置</string>
+    <string name="picker_btn_cancel">取消</string>
+
+    <!-- Independent floating picker marker -->
+    <string name="picker_hint_drag">拖动选点</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">自动点击服务</string>
+    <string name="notif_channel_desc">保持自动点击在后台持续运行</string>
+    <string name="notif_title">自动点击器运行中</string>
+    <string name="notif_text">点击 %1$d · 间隔 %2$dms</string>
+    <string name="notif_action_stop">停止</string>
+</resources>
